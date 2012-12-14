@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Hannes Baldursson <hannson@gmail.com>, 2012.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: django-dbtemplates\n"
+"Report-Msgid-Bugs-To: https://github.com/jezdez/django-dbtemplates/issues\n"
+"POT-Creation-Date: 2011-08-15 13:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Hannes Baldursson <hannson@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: admin.py:56
+msgid ""
+"Leaving this empty causes Django to look for a template with the given name "
+"and populate this field with its content."
+msgstr "Sé þetta skilið eftir autt leitar Django að sniðmáti með gefnu nafni "
+"og fyllir í þennan reit með efni þess."
+
+#: admin.py:82
+msgid "Advanced"
+msgstr "Ítarlegt"
+
+#: admin.py:85
+msgid "Date/time"
+msgstr "Dagsetning/tími"
+
+#: admin.py:102
+#, python-format
+msgid "Cache of one template successfully invalidated."
+msgid_plural "Cache of %(count)d templates successfully invalidated."
+msgstr[0] "Skyndiminni eins sniðmáts hefur verið ógilt."
+msgstr[1] "Skyndiminni $(count)d sniðmáta hafa verið ógild."
+
+#: admin.py:106
+msgid "Invalidate cache of selected templates"
+msgstr "Ógilda skyndiminni valdra sniðmáta"
+
+#: admin.py:114
+#, python-format
+msgid "Cache successfully repopulated with one template."
+msgid_plural "Cache successfully repopulated with %(count)d templates."
+msgstr[0] "Skyndiminni hefur verið fyllt með einu sniðmáti."
+msgstr[1] "Skyndiminni hefur verið fyllt með %(count)d sniðmátum."
+
+#: admin.py:118
+msgid "Repopulate cache with selected templates"
+msgstr "Fylla skyndiminni með völdum"
+
+#: admin.py:130
+#, python-format
+msgid "Template syntax check FAILED for %(names)s."
+msgid_plural ""
+"Template syntax check FAILED for %(count)d templates: %(names)s."
+msgstr[0] "Athugun málskipan sniðmáts MISTÓKST fyrir %(names)s."
+msgstr[1] "Athugun malskipan sniðmáta MISTÓKST fyrir %(count)d sniðtmát:"
+" %(names)s."
+
+#: admin.py:138
+#, python-format
+msgid "Template syntax OK."
+msgid_plural "Template syntax OK for %(count)d templates."
+msgstr[0] "Málskipan sniðmáts Í LAGI."
+msgstr[1] "Málskipan sniðmáta Í LAGI fyrir %(count)d sniðmát."
+
+#: admin.py:141
+msgid "Check template syntax"
+msgstr "Athuga málskipan sniðmáts"
+
+#: admin.py:145 models.py:25
+msgid "sites"
+msgstr "síður"
+
+#: models.py:22
+msgid "name"
+msgstr "nafn"
+
+#: models.py:23
+msgid "Example: 'flatpages/default.html'"
+msgstr "Dæmi: 'flatpages/default.html'"
+
+#: models.py:24
+msgid "content"
+msgstr "efni"
+
+#: models.py:27
+msgid "creation date"
+msgstr "stofnað"
+
+#: models.py:29
+msgid "last changed"
+msgstr "síðast breytt"
+
+#: models.py:37
+msgid "template"
+msgstr "sniðmát"
+
+#: models.py:38
+msgid "templates"
+msgstr "sniðmát"
